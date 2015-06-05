@@ -1,0 +1,12 @@
+
+target 'hospital-bag' do
+    pod 'FMDB', '~> 2.5'
+    pod 'KLCPopup', '~> 1.0'
+    pod 'SloppySwiper', '~> 0.4.0'
+    pod 'SVProgressHUD', '~> 1.1.3'
+end
+
+target 'hospital-bagTests' do
+
+end
+

@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE3F0FD71B21FB1800899687 /* NSArray+HB.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3F0FD61B21FB1800899687 /* NSArray+HB.m */; };
+		CE3F0FDA1B21FB2200899687 /* NSNumber+HB.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3F0FD91B21FB2200899687 /* NSNumber+HB.m */; };
+		CE3F0FDD1B220F3400899687 /* Item+HB.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3F0FDC1B220F3400899687 /* Item+HB.m */; };
+		CE7AC64C1B1D100500D9CF76 /* hospital_bagTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7AC64B1B1D100500D9CF76 /* hospital_bagTests.m */; };
+		CE7AC6661B1D132B00D9CF76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7AC65A1B1D132B00D9CF76 /* AppDelegate.m */; };
+		CE7AC6671B1D132B00D9CF76 /* ListController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7AC65D1B1D132B00D9CF76 /* ListController.m */; };
+		CE7AC6681B1D132B00D9CF76 /* babyready.db in Resources */ = {isa = PBXBuildFile; fileRef = CE7AC65F1B1D132B00D9CF76 /* babyready.db */; };
+		CE7AC6691B1D132B00D9CF76 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7AC6601B1D132B00D9CF76 /* Images.xcassets */; };
+		CE7AC66A1B1D132B00D9CF76 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE7AC6611B1D132B00D9CF76 /* LaunchScreen.xib */; };
+		CE7AC66D1B1D132B00D9CF76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7AC6651B1D132B00D9CF76 /* main.m */; };
+		CE7AC6741B1D13BE00D9CF76 /* Database.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7AC6731B1D13BE00D9CF76 /* Database.m */; };
+		CE7AC6771B1D180500D9CF76 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7AC6761B1D180500D9CF76 /* Item.m */; };
+		CE7AC6801B1E0B8E00D9CF76 /* UserData.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7AC67F1B1E0B8E00D9CF76 /* UserData.m */; };
+		E6CD0B676687F5E61F8648F3 /* libPods-hospital-bag.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A8DC42126D14DF2C3A172D /* libPods-hospital-bag.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE7AC6461B1D100500D9CF76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE7AC6241B1D100500D9CF76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE7AC62B1B1D100500D9CF76;
+			remoteInfo = "hospital-bag";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		47C3AECA308F815E892871A7 /* Pods-hospital-bag.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hospital-bag.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hospital-bag/Pods-hospital-bag.debug.xcconfig"; sourceTree = "<group>"; };
+		4E28241670D2BA9B47620118 /* Pods-hospital-bag.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hospital-bag.release.xcconfig"; path = "Pods/Target Support Files/Pods-hospital-bag/Pods-hospital-bag.release.xcconfig"; sourceTree = "<group>"; };
+		66A8DC42126D14DF2C3A172D /* libPods-hospital-bag.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-hospital-bag.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE3F0FD51B21FB1800899687 /* NSArray+HB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+HB.h"; sourceTree = "<group>"; };
+		CE3F0FD61B21FB1800899687 /* NSArray+HB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+HB.m"; sourceTree = "<group>"; };
+		CE3F0FD81B21FB2200899687 /* NSNumber+HB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+HB.h"; sourceTree = "<group>"; };
+		CE3F0FD91B21FB2200899687 /* NSNumber+HB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+HB.m"; sourceTree = "<group>"; };
+		CE3F0FDB1B220F3400899687 /* Item+HB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Item+HB.h"; sourceTree = "<group>"; };
+		CE3F0FDC1B220F3400899687 /* Item+HB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Item+HB.m"; sourceTree = "<group>"; };
+		CE7AC62C1B1D100500D9CF76 /* hospital-bag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hospital-bag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE7AC6451B1D100500D9CF76 /* hospital-bagTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hospital-bagTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE7AC64A1B1D100500D9CF76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE7AC64B1B1D100500D9CF76 /* hospital_bagTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hospital_bagTests.m; sourceTree = "<group>"; };
+		CE7AC6591B1D132B00D9CF76 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE7AC65A1B1D132B00D9CF76 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE7AC65C1B1D132B00D9CF76 /* ListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListController.h; sourceTree = "<group>"; };
+		CE7AC65D1B1D132B00D9CF76 /* ListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListController.m; sourceTree = "<group>"; };
+		CE7AC65F1B1D132B00D9CF76 /* babyready.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = babyready.db; sourceTree = "<group>"; };
+		CE7AC6601B1D132B00D9CF76 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CE7AC6611B1D132B00D9CF76 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		CE7AC6641B1D132B00D9CF76 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE7AC6651B1D132B00D9CF76 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE7AC6721B1D13BE00D9CF76 /* Database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Database.h; sourceTree = "<group>"; };
+		CE7AC6731B1D13BE00D9CF76 /* Database.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Database.m; sourceTree = "<group>"; };
+		CE7AC6751B1D180500D9CF76 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		CE7AC6761B1D180500D9CF76 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		CE7AC67E1B1E0B8E00D9CF76 /* UserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserData.h; sourceTree = "<group>"; };
+		CE7AC67F1B1E0B8E00D9CF76 /* UserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserData.m; sourceTree = "<group>"; };
+		CE7AC6811B1E11AB00D9CF76 /* HBDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBDefines.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE7AC6291B1D100500D9CF76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6CD0B676687F5E61F8648F3 /* libPods-hospital-bag.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7AC6421B1D100500D9CF76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AB6160A3A84B6D9A8C18313 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47C3AECA308F815E892871A7 /* Pods-hospital-bag.debug.xcconfig */,
+				4E28241670D2BA9B47620118 /* Pods-hospital-bag.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C8EB9347D99A3A6A41D06DE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66A8DC42126D14DF2C3A172D /* libPods-hospital-bag.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE7AC6231B1D100500D9CF76 = {
+			isa = PBXGroup;
+			children = (
+				CE7AC62E1B1D100500D9CF76 /* hospital-bag */,
+				CE7AC6481B1D100500D9CF76 /* hospital-bagTests */,
+				CE7AC62D1B1D100500D9CF76 /* Products */,
+				3AB6160A3A84B6D9A8C18313 /* Pods */,
+				C8EB9347D99A3A6A41D06DE4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE7AC62D1B1D100500D9CF76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE7AC62C1B1D100500D9CF76 /* hospital-bag.app */,
+				CE7AC6451B1D100500D9CF76 /* hospital-bagTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE7AC62E1B1D100500D9CF76 /* hospital-bag */ = {
+			isa = PBXGroup;
+			children = (
+				CE7AC6581B1D132B00D9CF76 /* app */,
+				CE7AC65B1B1D132B00D9CF76 /* controllers */,
+				CE7AC6711B1D13BE00D9CF76 /* models */,
+				CE7AC65E1B1D132B00D9CF76 /* resources */,
+				CE7AC6631B1D132B00D9CF76 /* support */,
+			);
+			path = "hospital-bag";
+			sourceTree = "<group>";
+		};
+		CE7AC6481B1D100500D9CF76 /* hospital-bagTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE7AC64B1B1D100500D9CF76 /* hospital_bagTests.m */,
+				CE7AC6491B1D100500D9CF76 /* Supporting Files */,
+			);
+			path = "hospital-bagTests";
+			sourceTree = "<group>";
+		};
+		CE7AC6491B1D100500D9CF76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE7AC64A1B1D100500D9CF76 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE7AC6581B1D132B00D9CF76 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				CE7AC6591B1D132B00D9CF76 /* AppDelegate.h */,
+				CE7AC65A1B1D132B00D9CF76 /* AppDelegate.m */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		CE7AC65B1B1D132B00D9CF76 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE7AC65C1B1D132B00D9CF76 /* ListController.h */,
+				CE7AC65D1B1D132B00D9CF76 /* ListController.m */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		CE7AC65E1B1D132B00D9CF76 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE7AC65F1B1D132B00D9CF76 /* babyready.db */,
+				CE7AC6601B1D132B00D9CF76 /* Images.xcassets */,
+				CE7AC6611B1D132B00D9CF76 /* LaunchScreen.xib */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		CE7AC6631B1D132B00D9CF76 /* support */ = {
+			isa = PBXGroup;
+			children = (
+				CE7AC6811B1E11AB00D9CF76 /* HBDefines.h */,
+				CE7AC6641B1D132B00D9CF76 /* Info.plist */,
+				CE3F0FDB1B220F3400899687 /* Item+HB.h */,
+				CE3F0FDC1B220F3400899687 /* Item+HB.m */,
+				CE7AC6651B1D132B00D9CF76 /* main.m */,
+				CE3F0FD51B21FB1800899687 /* NSArray+HB.h */,
+				CE3F0FD61B21FB1800899687 /* NSArray+HB.m */,
+				CE3F0FD81B21FB2200899687 /* NSNumber+HB.h */,
+				CE3F0FD91B21FB2200899687 /* NSNumber+HB.m */,
+			);
+			path = support;
+			sourceTree = "<group>";
+		};
+		CE7AC6711B1D13BE00D9CF76 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				CE7AC6721B1D13BE00D9CF76 /* Database.h */,
+				CE7AC6731B1D13BE00D9CF76 /* Database.m */,
+				CE7AC6751B1D180500D9CF76 /* Item.h */,
+				CE7AC6761B1D180500D9CF76 /* Item.m */,
+				CE7AC67E1B1E0B8E00D9CF76 /* UserData.h */,
+				CE7AC67F1B1E0B8E00D9CF76 /* UserData.m */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE7AC62B1B1D100500D9CF76 /* hospital-bag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE7AC64F1B1D100500D9CF76 /* Build configuration list for PBXNativeTarget "hospital-bag" */;
+			buildPhases = (
+				3C449F21627BDFEEC96BE58B /* Check Pods Manifest.lock */,
+				CE7AC6281B1D100500D9CF76 /* Sources */,
+				CE7AC6291B1D100500D9CF76 /* Frameworks */,
+				CE7AC62A1B1D100500D9CF76 /* Resources */,
+				6F1B72D4085CF2A6FEF67183 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hospital-bag";
+			productName = "hospital-bag";
+			productReference = CE7AC62C1B1D100500D9CF76 /* hospital-bag.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE7AC6441B1D100500D9CF76 /* hospital-bagTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE7AC6521B1D100500D9CF76 /* Build configuration list for PBXNativeTarget "hospital-bagTests" */;
+			buildPhases = (
+				CE7AC6411B1D100500D9CF76 /* Sources */,
+				CE7AC6421B1D100500D9CF76 /* Frameworks */,
+				CE7AC6431B1D100500D9CF76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE7AC6471B1D100500D9CF76 /* PBXTargetDependency */,
+			);
+			name = "hospital-bagTests";
+			productName = "hospital-bagTests";
+			productReference = CE7AC6451B1D100500D9CF76 /* hospital-bagTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE7AC6241B1D100500D9CF76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = dkhamsing;
+				TargetAttributes = {
+					CE7AC62B1B1D100500D9CF76 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = X522JJ58HA;
+					};
+					CE7AC6441B1D100500D9CF76 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = CE7AC62B1B1D100500D9CF76;
+					};
+				};
+			};
+			buildConfigurationList = CE7AC6271B1D100500D9CF76 /* Build configuration list for PBXProject "hospital-bag" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE7AC6231B1D100500D9CF76;
+			productRefGroup = CE7AC62D1B1D100500D9CF76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE7AC62B1B1D100500D9CF76 /* hospital-bag */,
+				CE7AC6441B1D100500D9CF76 /* hospital-bagTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE7AC62A1B1D100500D9CF76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7AC6681B1D132B00D9CF76 /* babyready.db in Resources */,
+				CE7AC66A1B1D132B00D9CF76 /* LaunchScreen.xib in Resources */,
+				CE7AC6691B1D132B00D9CF76 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7AC6431B1D100500D9CF76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C449F21627BDFEEC96BE58B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6F1B72D4085CF2A6FEF67183 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hospital-bag/Pods-hospital-bag-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE7AC6281B1D100500D9CF76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7AC6671B1D132B00D9CF76 /* ListController.m in Sources */,
+				CE7AC6741B1D13BE00D9CF76 /* Database.m in Sources */,
+				CE7AC66D1B1D132B00D9CF76 /* main.m in Sources */,
+				CE7AC6771B1D180500D9CF76 /* Item.m in Sources */,
+				CE3F0FD71B21FB1800899687 /* NSArray+HB.m in Sources */,
+				CE3F0FDA1B21FB2200899687 /* NSNumber+HB.m in Sources */,
+				CE7AC6801B1E0B8E00D9CF76 /* UserData.m in Sources */,
+				CE3F0FDD1B220F3400899687 /* Item+HB.m in Sources */,
+				CE7AC6661B1D132B00D9CF76 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7AC6411B1D100500D9CF76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7AC64C1B1D100500D9CF76 /* hospital_bagTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE7AC6471B1D100500D9CF76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE7AC62B1B1D100500D9CF76 /* hospital-bag */;
+			targetProxy = CE7AC6461B1D100500D9CF76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CE7AC64D1B1D100500D9CF76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE7AC64E1B1D100500D9CF76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE7AC6501B1D100500D9CF76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47C3AECA308F815E892871A7 /* Pods-hospital-bag.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "hospital-bag/support/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE7AC6511B1D100500D9CF76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E28241670D2BA9B47620118 /* Pods-hospital-bag.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "hospital-bag/support/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CE7AC6531B1D100500D9CF76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "hospital-bagTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hospital-bag.app/hospital-bag";
+			};
+			name = Debug;
+		};
+		CE7AC6541B1D100500D9CF76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "hospital-bagTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hospital-bag.app/hospital-bag";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE7AC6271B1D100500D9CF76 /* Build configuration list for PBXProject "hospital-bag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7AC64D1B1D100500D9CF76 /* Debug */,
+				CE7AC64E1B1D100500D9CF76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE7AC64F1B1D100500D9CF76 /* Build configuration list for PBXNativeTarget "hospital-bag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7AC6501B1D100500D9CF76 /* Debug */,
+				CE7AC6511B1D100500D9CF76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE7AC6521B1D100500D9CF76 /* Build configuration list for PBXNativeTarget "hospital-bagTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7AC6531B1D100500D9CF76 /* Debug */,
+				CE7AC6541B1D100500D9CF76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE7AC6241B1D100500D9CF76 /* Project object */;
+}
